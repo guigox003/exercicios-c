@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+//Lê um inteiro e mostra o valor anterior e o próximo.//
 
 int main() {
     int n;
