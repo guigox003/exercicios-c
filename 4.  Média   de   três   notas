@@ -1,19 +1,28 @@
 #include <stdio.h>
 #include <stdlib.h>
 
- //Leia três notas, calcule a média e informe se o aluno foi aprovado ou 
-reprovado//
+//Leia três notas, calcule a média e informe se o aluno foi aprovado ou 
+//reprovado.//
 
 int main() {
-	
-	int n;
-	
-	printf("Digite um numero: ");
-	scanf("%d", &n);
-	
-	if (n > 0) printf("Positivo\n");
-	else if (n < 0) printf("Negativo\n");
-	else printf("Zero\n");
-	
+    float n1, n2, n3, media;
+    
+	printf("Digite a primeira nota: ");
+    scanf("%f", &n1);
+    
+	printf("Digite a segunda nota: ");
+    scanf("%f", &n2);
+    
+	printf("Digite a terceira nota: ");
+    scanf("%f", &n3);
+    
+	media = (n1 + n2 + n3) / 3;
+    printf("Media: %.2f\n", media);
+    if (media >= 6.0)
+        printf("Aluno aprovado.\n");
+    else
+        printf("Aluno reprovado.\n");
+    
 	return 0;
+	
 }
