@@ -1,4 +1,8 @@
 #include <stdio.h>
+#include <stdlib.h>
+
+ //Leia três notas, calcule a média e informe se o aluno foi aprovado ou 
+reprovado//
 
 int main() {
 	
