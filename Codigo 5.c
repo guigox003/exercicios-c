@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Leia um número e determine se ele é positivo, negativo ou igual a 
+//zero.//
+
+int main() {
+    float n;
+    printf("Digite um numero: ");
+    scanf("%f", &n);
+    
+    if (n > 0)
+        printf("O numero e positivo. \n");
+    else if (n < 0)
+        printf("O numero e negativo. \n");
+    else
+        printf("O numero e igual a zero. \n");
+        
+	return 0;
+}
