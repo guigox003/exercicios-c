@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia dois números e informe qual é o maior ou se os dois valores 
+//são iguais.
+
+int main() {
+	float a, b;
+	
+	printf("Digite o primeiro numero: ");
+	scanf("%f", &a);
+	printf("Digite o segundo numero: ");
+	scanf("%f", &b);
+	
+	if (a > b)
+	    printf("O maior numero e %.2f\n", a);
+	else if (b > a)
+	    printf("0 maior numero e %.2f\n", b);
+	else 
+	    printf("Os dois valores sao iguais. \n");
+	    
+	return 0;
+}
