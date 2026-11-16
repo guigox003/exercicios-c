@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro e informe se ele é par ou ímpar.//
+//Leia um nÃºmero inteiro e informe se ele Ã© par ou Ã­mpar.//
 
 int main() {
 	int n;
