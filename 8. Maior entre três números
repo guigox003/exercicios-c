@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia três números e determine o maior deles.//
+//Leia trÃªs nÃºmeros e determine o maior deles.//
 
 int main() {
 	float a, b, c, maior;
