@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia dois números e uma operação (+, -, * ou /) e apresente o resultado.
-//Trate adequadamente a tentativa de divisão por zero. 
+//Leia dois nÃºmeros e uma operaÃ§Ã£o (+, -, * ou /) e apresente o resultado.
+//Trate adequadamente a tentativa de divisÃ£o por zero. 
 
 int main() {
     
