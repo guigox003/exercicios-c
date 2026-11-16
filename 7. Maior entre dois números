@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia dois números e informe qual é o maior ou se os dois valores 
-//são iguais.
+//Leia dois nÃºmeros e informe qual Ã© o maior ou se os dois valores 
+//sÃ£o iguais.
 
 int main() {
 	float a, b;
