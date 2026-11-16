@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia a idade de uma pessoa e classifique-a em criança, adolescente, adulto ou 
-//idoso. Defina no programa os intervalos utilizados para cada classificação.
+//Leia a idade de uma pessoa e classifique-a em crianÃ§a, adolescente, adulto ou 
+//idoso. Defina no programa os intervalos utilizados para cada classificaÃ§Ã£o.
 
 int main() {
 	int idade;
@@ -11,7 +11,7 @@ int main() {
 	scanf("%d", &idade);
 	
 	if (idade <= 12)
-	   printf("Criança\n");
+	   printf("CrianÃ§a\n");
 	else if (idade <= 17)
 	   printf("Adolescente\n");
 	else if (idade <= 59)
