@@ -1,0 +1,43 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia dois números e uma operação (+, -, * ou /) e apresente o resultado.
+//Trate adequadamente a tentativa de divisão por zero. 
+
+int main() {
+    
+	float a, b, resultado;
+    char op;
+    
+	printf("Digite o primeiro numero: ");
+    scanf("%f", &a);
+    printf("Digite a operacao (+, -, *, /): ");
+    scanf(" %c", &op);
+    printf("Digite o segundo numero: ");
+    scanf("%f", &b);
+    
+	switch (op) {
+        case '+':
+            resultado = a + b;
+            printf("Resultado: %.2f\n", resultado);
+            break;
+        case '-':
+            resultado = a - b;
+            printf("Resultado: %.2f\n", resultado);
+            break;
+        case '*':
+            resultado = a * b;
+            printf("Resultado: %.2f\n", resultado);
+            break;
+        case '/':
+            if (b == 0)
+                printf("Erro: divisao por zero!\n");
+            else
+                printf("Resultado: %.2f\n", a / b);
+            break;
+        default:
+            printf("Operacao invalida.\n");
+    }
+    
+return 0;
+}
