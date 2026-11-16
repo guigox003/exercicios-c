@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia três números e determine o maior deles.//
+
+int main() {
+	float a, b, c, maior;
+	printf("Digite tres numeros: ");
+	scanf("%f %f %f", &a, &b, &c);
+	
+	maior = a;
+	if (b > maior) maior = b;
+	if (c > maior) maior = c;
+	
+	printf("O maior numero e %.2f\n", maior);
+	
+	return 0;
+}
