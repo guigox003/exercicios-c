@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 //Leia a quantidade de alunos de uma turma. Em seguida, leia a nota de cada
-//aluno e apresente a média geral da turma.
+//aluno e apresente a mÃ©dia geral da turma.
 
 int main() {
 	int qtd;
