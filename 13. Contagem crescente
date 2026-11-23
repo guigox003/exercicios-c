@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro positivo N e mostre todos os números de 1 até N.
+//Leia um nÃºmero inteiro positivo N e mostre todos os nÃºmeros de 1 atÃ© N.
 
 int main() {
     int n, i;
