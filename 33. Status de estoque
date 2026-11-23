@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Leia a quantidade disponivel de um produto.
-// Mostre a situacao usando if/else e operador ternario.
+
+// Leia a quantidade disponível de um produto. Exiba “Disponível” quando houver unidades em estoque e
+// “Esgotado” quando a quantidade for zero. Faça uma versão com if/else e outra utilizando operador
+// ternário
+
 int main () {
  int quantidade = 0;
      printf("Digite a quantidade em estoque: ");
