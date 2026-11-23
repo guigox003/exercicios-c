@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia 10 temperaturas e armazene-as em um vetor. Calcule a média, apresente a maior e a menor
-//temperatura e informe quantas ficaram acima da média.
+//Leia 10 temperaturas e armazene-as em um vetor. Calcule a mÃ©dia, apresente a maior e a menor
+//temperatura e informe quantas ficaram acima da mÃ©dia.
 
 int main() {
 	
