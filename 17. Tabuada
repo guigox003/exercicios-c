@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número e apresente sua tabuada de multiplicação de 1 a 10//
+//Leia um nÃºmero e apresente sua tabuada de multiplicaÃ§Ã£o de 1 a 10//
 
 int main() {
 	int n, i;
