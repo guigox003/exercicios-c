@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+//Uma empresa deseja estimar o salário líquido de um colaborador. Leia o salário bruto e os valores de
+//dois descontos (em percentual). Calcule e exiba o valor de cada desconto e o salário final. Considere
+//apenas os cálculos informados no enunciado; não é necessário reproduzir regras tributárias reais
+
+int main () {
+	
+	setlocale(LC_ALL,"PORTUGUESE");
+    float salario_liquido = 0;
+    float salario_bruto = 0;
+    float desconto_1 = 0;
+    float desconto_2 = 0;
+    
+    printf("Digite o salario bruto %f: ", salario_bruto);
+    scanf("%f", &salario_bruto); 
+    
+    printf("digite o desconto 1 %f: ", desconto_1);
+    scanf("%f", &desconto_1);
+    
+    printf("digite o desconto 2 %f: ", desconto_2);
+    scanf("%f", &desconto_2);
+	
+	desconto_1 = (desconto_1 / 100) * salario_bruto;
+	desconto_2 = (desconto_2 / 100) * salario_bruto;
+	salario_liquido = salario_bruto - desconto_1 - desconto_2;
+	
+	printf("Esse é o valor do primeiro desconto sobre o salário bruto %.2f\n: ", desconto_1);
+	printf("Esse é o valor do primeiro desconto sobre o salário bruto %.2f\n: ", desconto_2);	
+	printf("Esse é o valor do salário final %.2f: ", salario_liquido);
+	
+	
+	return 0;
+}

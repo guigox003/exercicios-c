@@ -1,0 +1,57 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+// Separe as operacoes em funcoes e utilize math.h.
+
+float raiz(float numero) {
+	return sqrt( numero);
+}
+ 
+float quadrado(float numero) {
+	return pow(numero, 2);
+ }
+ 
+int main() {
+	
+	int opcao = 0;
+	float numero = 0;
+	
+	do {
+		printf("\n1 - Raiz quadrada\n");
+		printf("2 - Quadrado\n");
+		printf("3 - Arredondamentos\n");
+		printf("0 - Sair\n");
+		printf("Escolha um opcao: ");
+		scanf("%d", &opcao);
+		
+		if (opcao == 0) {
+			break;
+		}
+		
+		printf("Digite um numero: ");
+		scanf("%f", &numero);
+		
+		switch (opcao) {
+			case 1:
+				if (numero >= 0) {
+					printf("Raiz: %.2f\n", raiz(numero));
+				} else {
+					printf("Nao existe raiz real\n");
+				}
+				break;
+			case 2:
+				printf("Quadrado: %.2f\n", quadrado(numero));
+				break;
+			case 3:
+				printf("Floor: %.0f\n", floor(numero));
+				printf("Ceil: %.0f\n", ceil(numero));
+				printf("Round: %.0f\n", round(numero));
+				break;
+			default:
+				printf("Opcao invalida\n");
+		}
+	} while (opcao != 0);
+	
+	return 0;
+}

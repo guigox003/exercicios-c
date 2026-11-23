@@ -1,0 +1,52 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Represente uma sala com 4 linhas e 5 assentos por linha utilizando uma matriz de inteiros, onde 0
+//significa disponível e 1 ocupado. Permita reservar assentos enquanto o usuário desejar. Não permita
+//reservar um assento já ocupado e exiba o mapa após cada operação.
+
+void mostrar(int sala[4] [5]) {
+	int i, j;
+	printf("\nMapa de assentos:\n");
+	
+	for (i = 0; i < 4; i++) {
+		for (j = 0; j < 5; j++) {
+			printf("%d ", sala[i][j]);
+		}
+		
+		printf("\n");
+	}
+}
+int main() {
+	
+	int sala[4][5] = {{0}};
+	int linha = 0, assento = 0;
+	int continuar = 1;
+	
+	mostrar(sala);
+	
+	while (continuar == 1) {
+		printf("Digite a linha (1 a 4): ");
+		scanf("%d", &linha);
+		
+		printf("Digite o assento (1 a 5): ");
+		scanf("%d", &assento);
+		
+		if (linha < 1 || linha > 4 || assento < 1 || assento > 5) {
+			printf("Posicao invalida\n");
+	} else if (sala[linha - 1][assento - 1] == 1) {
+		printf("Assento ja ocupado\n");
+	} else {
+		sala[linha - 1] [assento - 1] = 1;
+		printf("Assento reservado\n");
+	}
+	
+	mostrar(sala);
+	
+	printf("Deseja fazer outra reserva? (1 sim / 0 nao): ");
+	scanf("%d", &continuar);
+	
+ }
+	
+    return 0;
+}

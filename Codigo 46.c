@@ -1,0 +1,69 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Armazene em um vetor o valor de 10 vendas. Crie funções para exibir todas as vendas, calcular o
+//faturamento, localizar a maior venda e contar quantas vendas ultrapassaram R$ 500,00.
+
+void exibir_vendas(float vendas[]) {
+	int i;
+	
+	for (i = 0; i < 10; i++) {
+		printf("Vendas %d: %.2f\n", i + 1, vendas[i]);
+	}
+}
+
+float faturamento(float vendas[]) {
+	float total = 0;
+	int i;
+	
+	for (i = 0; i < 10; i++) {
+		total = total + vendas[i];
+	}
+	
+	return total;
+}
+
+float maior_venda(float vendas[]){
+	float maior = vendas[0];
+	int i;
+	
+	for (i = 1; i < 10; i++) {
+		if (vendas[i] > maior) {
+			maior = vendas[i];
+		}
+	}
+	
+	return maior;
+}
+
+int acima_500(float vendas[]) {
+	int quantidade = 0;
+	int i;
+	
+	for (i = 0; i < 10; i++) {
+		if (vendas[i] > 500) {
+			quantidade++;
+		}
+	}
+	
+	return quantidade;
+}
+
+int main() {
+	
+	 int i;
+	 float vendas[10];
+	 
+	 for (i = 0; i < 10; i++) {
+	 	printf("Digite a venda %d: ", i + 1);
+	 	scanf("%f", &vendas[1]);
+	 }
+	 
+	 exibir_vendas(vendas);
+	 
+	 printf("Faturamento: %.2f\n", faturamento(vendas));
+	 printf("Maior venda: %2.f\n", maior_venda(vendas));
+	 printf("Vendas acima de 500: %d\n", acima_500(vendas));
+	 
+	return 0;
+}

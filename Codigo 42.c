@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Solicite ao usuário uma resposta S ou N. Aceite tanto letras maiúsculas quanto minúsculas. Continue
+//solicitando enquanto a entrada for inválida e, ao final, informe se a operação continuará ou será
+//encerrada.
+
+int main() {
+	char resposta = ' ';
+	
+	do {
+		printf("Deseja continuar? (S/N): ");
+		scanf(" %c", &resposta);
+		
+		resposta = toupper(resposta);
+		
+		if (resposta !=  'S' && resposta != 'N') {
+			printf("Opcao invalida!\n");
+		}
+	} while (resposta != 'S' && resposta != 'N');
+	
+	if (resposta == 'S') {
+		printf("A operacao continuara\n");
+	} else {
+		printf("A operacao sera encerrada\n");
+	}
+	
+	return 0;
+}

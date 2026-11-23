@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia 10 temperaturas e armazene-as em um vetor. Calcule a média, apresente a maior e a menor
+//temperatura e informe quantas ficaram acima da média.
+
+int main() {
+	
+	int i;
+	float temperatura[10];
+	float soma = 0, media = 0;
+	float maior = 0, menor = 0;
+	int acima = 0;
+	
+	for (i = 0; i < 10; i++) {
+		printf("Digite a temperatura %d: ", i + 1);
+		scanf("%f", &temperatura[i]);
+		
+		soma = soma + temperatura[i];
+		
+		if ( i == 0) {
+			maior = temperatura[i];
+			menor = temperatura[i];
+		} else {
+			if (temperatura[i] > maior) {
+				maior = temperatura[i];
+			}
+			
+			if (temperatura[i] < menor) {
+				menor = temperatura[i];
+			}
+		}
+	}
+	
+	media = soma / 10;
+	
+	for (i = 0; i < 10; i ++) {
+		if (temperatura[i] > media) {
+			acima++;
+		}
+	}	
+	
+	printf("Media: %.2\n", media);
+	printf("Maior temperatura: %.2\n", maior);
+	printf("Menor temperatura: %.2\n", menor);
+	printf("Acima da media: %d\n", acima);
+
+	return 0;
+}

@@ -1,0 +1,28 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+// Leia os precos dos produtos ate digitar 0.
+// Valores negativos devem ser rejeitados.
+
+int main() {
+	float preco = 0;
+	float total = 0;
+	int quantidade = 0;
+	
+	while (preco != 0) {
+		printf("Digite o preco do produto (0 encerra): ");
+		scanf("%f", &preco);
+		
+		if (preco < 0) {
+			printf("Valor invalido!\n");
+		} else if (preco > 0) {
+			total = total + preco;
+			quantidade++;
+		}
+	}
+	
+	printf("Quantidade de produtos: %d\n", quantidade);
+	printf("total da compra: %.2f\n", total);
+	
+	return 0;
+}

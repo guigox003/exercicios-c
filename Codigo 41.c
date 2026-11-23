@@ -1,0 +1,34 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//O programa deve sortear um número entre 1 e 100. O jogador informa palpites até acertar. A cada
+//tentativa, informe se o número secreto é maior ou menor. Ao final, mostre a quantidade de tentativas.
+
+
+int main() {
+	 int segredo = 0;
+	 int palpite = 0;
+	 int tentativas = 0;
+	 
+	 srand(time(NULL));
+	 segredo = rand() % 100 + 1;
+	 
+	 do {
+	 	printf("Digite seu palpite (1 a 100): ");
+	 	scanf("%d", &palpite);
+	 	
+	 	tentativas++;
+	 	
+	 	if (palpite < segredo) {
+	 		printf("o numero secreto e maior\n");
+		 } else if (palpite > segredo) {
+		 	printf("O numero secreto e menor\n");
+		 }
+	 } while (palpite != segredo);
+	
+	printf("Voce acertou!\n");
+	printf("Tentativas: %d\n", tentativas);
+	
+	
+	return 0;
+}
