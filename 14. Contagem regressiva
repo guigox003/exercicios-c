@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro positivo N e faça uma contagem regressiva de
-//N até zero.
+//Leia um nÃºmero inteiro positivo N e faÃ§a uma contagem regressiva de
+//N atÃ© zero.
 
 int main() {
  int n, i;
