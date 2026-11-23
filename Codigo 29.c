@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+///Leia a quantidade N de termos desejada e apresente os primeiros N
+//termos da sequência de Fibonacci.
+
+int main() {
+	int n;
+	int i;
+	long long a = 0, b = 1, proximo;
+	
+	printf("Digite a quantidade de termos: ");
+	scanf("%d", &n);
+	
+	printf("Sequencia de fibonacci: ");
+	for (i = 1; i <= n; i++) {
+		printf("%11d ", a); 
+		proximo = a + b;
+		a = b;
+		b = proximo;
+	}
+	printf("\n");
+	
+	return 0;
+}

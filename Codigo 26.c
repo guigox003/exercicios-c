@@ -1,0 +1,23 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Defina uma senha numérica no programa e continue solicitando a senha
+//enquanto o usuário não informar o valor correto. Ao acertar, exiba uma mensagem de acesso
+//permitido.
+
+int main() {
+	int senha = 1234;
+	int tentativa;
+	
+	printf("Digite a senha: ");
+	scanf("%d", &tentativa);
+	
+	while (tentativa != senha) {
+		printf("Senha incorreta! tente novamente: ");
+		scanf("%d", &tentativa);
+	}
+	
+	printf("Acesso permitido!\n");
+	
+	return 0;
+}

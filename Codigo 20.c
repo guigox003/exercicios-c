@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia um número inteiro não negativo e calcule seu fatorial//
+
+int main() {
+	int n, i;
+	long long fatorial = 1;
+	
+	printf("Digite um numero inteiro nao negativo: ");
+	scanf("%d", &n);
+	
+	for (i = 1; i <= n; i++)
+	     fatorial *= i;
+	     
+	printf("Fatorial: %11d\n", fatorial);
+	
+	return 0;
+}

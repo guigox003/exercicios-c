@@ -1,0 +1,30 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia uma quantidade N de números e informe o maior e o menor
+//valor encontrados.
+
+int main() {
+	int n;
+	int i;
+	float numero, maior, menor;
+	
+	printf("Digite a quantidade de numeros: ");
+	scanf("%d", &n);
+	
+	printf("Digite o numero 1: ");
+	scanf("%f", &numero);
+	maior = menor = numero;
+	
+	for (i =  2; i <= n; i++) {
+		printf("Digite o numero %d: ", i);
+		scanf("%f", &numero); 
+		if (numero > maior) maior = numero;
+		if (numero < menor) menor = numero;
+	}
+	
+	printf("Maior valor: %.2f\n", maior);
+	printf("Menor valor: %.2f\n", menor);
+	
+	return 0;
+}

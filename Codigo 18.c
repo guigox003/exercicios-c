@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia um número inteiro positivo N e calcule a soma de todos os números
+//entre 1 e  N 
+
+int main() {
+	int n, i, soma = 0;
+	printf("Digite um numero inteiro positivo: ");
+	scanf("%d", &n);
+	
+	for (i = 1; i <= n; i++)
+	     soma += i;
+	printf("Soma: %d\n", soma);
+	
+	return 0;
+}
