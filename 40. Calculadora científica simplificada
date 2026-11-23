@@ -2,7 +2,10 @@
 #include <stdlib.h>
 #include <math.h>
 
-// Separe as operacoes em funcoes e utilize math.h.
+// Crie um menu para calcular raiz quadrada, potência ao quadrado e arredondamentos. Separe cada
+// operação em uma função e utilize recursos de math.h. O menu deve permanecer ativo até a opção de
+//saída.
+
 
 float raiz(float numero) {
 	return sqrt( numero);
