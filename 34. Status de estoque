@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Compras a partir de R$ 200 recebem frete gratis.
-// As demais pagam R$ 20,00.
+// Leia o valor de uma compra. Compras a partir de R$ 200,00 recebem frete grátis; as demais pagam R$
+///20,00 de frete. Exiba o valor da compra, o frete e o total do pedido.
+//.
 
 int main() {
 	
