@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 ///Leia a quantidade N de termos desejada e apresente os primeiros N
-//termos da sequência de Fibonacci.
+//termos da sequÃªncia de Fibonacci.
 
 int main() {
 	int n;
