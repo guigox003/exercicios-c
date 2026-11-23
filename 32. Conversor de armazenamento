@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
-// Leia uma quantidade em GB e converta para MB e KB.
+// Leia uma quantidade de armazenamento em gigabytes (GB) e apresente o valor aproximado em
+// megabytes (MB) e kilobytes (KB), utilizando 1 GB = 1024 MB e 1 MB = 1024 KB.
 int main () {
  
  float gb = 0;
