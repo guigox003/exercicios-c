@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Crie um menu de atendimento utilizando switch.
+// Crie um menu com as opções: 1 - Suporte técnico; 2 - Financeiro; 3 - Comercial; 4 - Cancelamento. Leia a
+// opção e, utilizando switch, informe para qual setor o atendimento será encaminhado. Trate opções
+//inválidas
 
 int main() {
 	int opcao = 0;
