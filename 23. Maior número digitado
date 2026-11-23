@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia 10 números e informe qual foi o maior valor digitado//
+//Leia 10 nÃºmeros e informe qual foi o maior valor digitado//
 
 int main() {
 	float n, maior;
