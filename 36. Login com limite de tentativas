@@ -1,7 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Permita no maximo tres tentativas para acertar a senha.
+//Defina uma senha numérica no programa. O usuário poderá tentar entrar no sistema no máximo três
+//vezes. Se acertar, exiba “Acesso autorizado”. Caso as três tentativas sejam consumidas, exiba “Usuário
+//bloqueado”.
 
 
 int main() {
