@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia 10 n˙meros e, ao final, informe quantos valores
-//s„o positivos e quantos s„o negativos. Caso deseje, contabilize separadamente os valores
+//Leia 10 n√∫meros e, ao final, informe quantos valores
+//s√£o positivos e quantos s√£o negativos. Caso deseje, contabilize separadamente os valores
 //iguais a zero.
 
 int main() {
