@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro positivo e determine se ele é primo//
+//Leia um nÃºmero inteiro positivo e determine se ele Ã© primo//
 
 int main() {
 	int n, primo = 1;
