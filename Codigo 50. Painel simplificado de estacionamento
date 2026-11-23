@@ -6,8 +6,8 @@
 
 //Construa um programa que represente um estacionamento com 3 setores e 5 vagas por setor usando
 //uma matriz. O sistema deve possuir menu para: exibir vagas, ocupar vaga, liberar vaga, contar vagas
-//livres e sair. Separe operações importantes em funções. Valide setor e vaga informados e impeça
-//operações inconsistentes, como ocupar uma vaga já ocupada.
+//livres e sair. Separe operaÃ§Ãµes importantes em funÃ§Ãµes. Valide setor e vaga informados e impeÃ§a
+//operaÃ§Ãµes inconsistentes, como ocupar uma vaga jÃ¡ ocupada.
 
 void mostrar(int estacionamento[SETORES] [VAGAS]) {
 	int i, j;
