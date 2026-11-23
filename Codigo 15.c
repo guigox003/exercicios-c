@@ -1,0 +1,19 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia um número inteiro positivo N e mostre todos os números pares
+//existentes entre 1 e N.
+
+int main() {
+	int n, i;
+	
+	printf("Digite um numero inteiro positivo: ");
+	scanf("%d", &n);
+	
+	for (i = 1; i <= n; i++);
+	     if (i % 2 == 0)
+	         printf("%d ", i);
+	printf("\n");
+	
+	return 0;
+}
