@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro positivo N e calcule a soma de todos os números
+//Leia um nÃºmero inteiro positivo N e calcule a soma de todos os nÃºmeros
 //entre 1 e  N 
 
 int main() {
