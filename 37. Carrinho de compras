@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Leia os precos dos produtos ate digitar 0.
-// Valores negativos devem ser rejeitados.
+// Leia sucessivamente os preços dos produtos de uma compra. O valor 0 encerra o registro. Ao final, exiba
+// a quantidade de produtos e o total da compra. Valores negativos devem ser rejeitados.
 
 int main() {
 	float preco = 0;
