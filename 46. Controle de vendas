@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Armazene em um vetor o valor de 10 vendas. Crie funções para exibir todas as vendas, calcular o
+//Armazene em um vetor o valor de 10 vendas. Crie funÃ§Ãµes para exibir todas as vendas, calcular o
 //faturamento, localizar a maior venda e contar quantas vendas ultrapassaram R$ 500,00.
 
 void exibir_vendas(float vendas[]) {
