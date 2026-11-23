@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia um número de 1 a 7 e utilize switch para mostrar o dia da semana
+//correspondente. Caso o valor esteja fora desse intervalo, informe que a opção é inválida.
+
+int main() {
+	int dia;
+	printf("Digite um numero de 1 a 7: ");
+	scanf("%d", &dia);
+	
+	switch (dia) {
+		case 1: printf("Domingo\n"); break;
+		case 2:  printf("Segunda-feria\n"); break;
+		case 3:  printf("Terça-feira\n"); break;
+		case 4:  printf("Quarta-feria\n"); break;
+		case 5:  printf("Quinta-feira\n"); break;
+		case 6:  printf("Sexta-feira\n"); break;
+		case 7:  printf("Sabado\n"); break;
+		default: printf("Opcao invalida.\n");
+	}
+	
+	return 0;
+}
