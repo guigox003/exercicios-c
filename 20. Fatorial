@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia um número inteiro não negativo e calcule seu fatorial//
+//Leia um nÃºmero inteiro nÃ£o negativo e calcule seu fatorial//
 
 int main() {
 	int n, i;
