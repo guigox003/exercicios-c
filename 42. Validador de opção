@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Solicite ao usuário uma resposta S ou N. Aceite tanto letras maiúsculas quanto minúsculas. Continue
-//solicitando enquanto a entrada for inválida e, ao final, informe se a operação continuará ou será
+//Solicite ao usuÃ¡rio uma resposta S ou N. Aceite tanto letras maiÃºsculas quanto minÃºsculas. Continue
+//solicitando enquanto a entrada for invÃ¡lida e, ao final, informe se a operaÃ§Ã£o continuarÃ¡ ou serÃ¡
 //encerrada.
 
 int main() {
