@@ -1,13 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <locale.h>
-
-//Uma empresa deseja estimar o sal·rio lÌquido de um colaborador. Leia o sal·rio bruto e os valores de
-//dois descontos (em percentual). Calcule e exiba o valor de cada desconto e o sal·rio final. Considere
-//apenas os c·lculos informados no enunciado; n„o È necess·rio reproduzir regras tribut·rias reais
+//Uma empresa deseja estimar o sal√°rio l√≠quido de um colaborador. Leia o sal√°rio bruto e os valores de
+//dois descontos (em percentual). Calcule e exiba o valor de cada desconto e o sal√°rio final. Considere
+//apenas os c√°lculos informados no enunciado; n√£o √© necess√°rio reproduzir regras tribut√°rias reais
 
 int main () {
 	
@@ -30,9 +26,9 @@ int main () {
 	desconto_2 = (desconto_2 / 100) * salario_bruto;
 	salario_liquido = salario_bruto - desconto_1 - desconto_2;
 	
-	printf("Esse È o valor do primeiro desconto sobre o sal·rio bruto %.2f\n: ", desconto_1);
-	printf("Esse È o valor do primeiro desconto sobre o sal·rio bruto %.2f\n: ", desconto_2);	
-	printf("Esse È o valor do sal·rio final %.2f: ", salario_liquido);
+	printf("Esse √© o valor do primeiro desconto sobre o sal√°rio bruto %.2f\n: ", desconto_1);
+	printf("Esse √© o valor do primeiro desconto sobre o sal√°rio bruto %.2f\n: ", desconto_2);	
+	printf("Esse √© o valor do sal√°rio final %.2f: ", salario_liquido);
 	
 	
 	return 0;
