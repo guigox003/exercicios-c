@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Defina uma senha numÈrica no programa e continue solicitando a senha
-//enquanto o usu·rio n„o informar o valor correto. Ao acertar, exiba uma mensagem de acesso
+//Defina uma senha num√©rica no programa e continue solicitando a senha
+//enquanto o usu√°rio n√£o informar o valor correto. Ao acertar, exiba uma mensagem de acesso
 //permitido.
 
 int main() {
