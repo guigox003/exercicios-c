@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia uma quantidade N de números e informe o maior e o menor
+//Leia uma quantidade N de nÃºmeros e informe o maior e o menor
 //valor encontrados.
 
 int main() {
