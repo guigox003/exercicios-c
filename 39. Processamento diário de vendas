@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// Leia varias vendas. O valor 0 encerra.
-// Ignore valores negativos e calcule o ticket medio.
+//Leia o valor de várias vendas. O valor 0 encerra o expediente. Ao final, apresente quantidade de vendas,
+//faturamento total e ticket médio. Ignore valores negativos e não permita divisão por zero.
 
 int main() {
 
