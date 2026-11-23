@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 //Represente uma sala com 4 linhas e 5 assentos por linha utilizando uma matriz de inteiros, onde 0
-//significa disponível e 1 ocupado. Permita reservar assentos enquanto o usuário desejar. Não permita
-//reservar um assento já ocupado e exiba o mapa após cada operação.
+//significa disponÃ­vel e 1 ocupado. Permita reservar assentos enquanto o usuÃ¡rio desejar. NÃ£o permita
+//reservar um assento jÃ¡ ocupado e exiba o mapa apÃ³s cada operaÃ§Ã£o.
 
 void mostrar(int sala[4] [5]) {
 	int i, j;
