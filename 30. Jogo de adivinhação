@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Defina um número secreto no programa. Solicite palpites repetidamente
-//e informe se o número secreto é maior ou menor que o palpite fornecido. O programa deve
-//terminar quando o usuário acertar e informar a quantidade de tentativas realizadas.
+//Defina um nÃºmero secreto no programa. Solicite palpites repetidamente
+//e informe se o nÃºmero secreto Ã© maior ou menor que o palpite fornecido. O programa deve
+//terminar quando o usuÃ¡rio acertar e informar a quantidade de tentativas realizadas.
 
 int main() {
 	int secreto = 42;
