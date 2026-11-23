@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Leia 10 códigos numéricos e armazene-os em um vetor. Depois, solicite um código para busca. Informe
-//se ele existe e, caso exista, em qual índice foi encontrado. Considere inicialmente apenas a primeira
-//ocorrência
+//Leia 10 cÃ³digos numÃ©ricos e armazene-os em um vetor. Depois, solicite um cÃ³digo para busca. Informe
+//se ele existe e, caso exista, em qual Ã­ndice foi encontrado. Considere inicialmente apenas a primeira
+//ocorrÃªncia
 
 int main() {
 	
