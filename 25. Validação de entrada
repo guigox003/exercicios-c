@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Solicite ao usu·rio uma nota entre 0 e 10. Enquanto for informado um
-//valor inv·lido, solicite novamente. O programa somente deve continuar quando uma nota
-//v·lida for digitada.
+//Solicite ao usu√°rio uma nota entre 0 e 10. Enquanto for informado um
+//valor inv√°lido, solicite novamente. O programa somente deve continuar quando uma nota
+//v√°lida for digitada.
 
 int main() {
 	float nota; 
