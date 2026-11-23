@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+//Leia um número inteiro positivo N e faça uma contagem regressiva de
+//N até zero.
+
+int main() {
+ int n, i;
+ printf("Digite um numero inteiro positivo: ");
+ scanf("%d", &n);
+
+for (i = n; i >= 0; i--)
+     printf("%d ", i);
+ printf("\n");
+ 
+ return 0;
+}
