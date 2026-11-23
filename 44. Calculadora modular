@@ -2,7 +2,9 @@
 #include <stdlib.h>
 #include "calculadora.h"
 
-// Menu para realizar as quatro operacoes matematicas.
+// Organize uma calculadora em três arquivos: main.c, calculadora.c e calculadora.h. Implemente funções
+// para soma, subtração, multiplicação e divisão. A main deve controlar o menu e chamar as funções
+// apropriadas. Trate divisão por zero
 
 int main () {
  
