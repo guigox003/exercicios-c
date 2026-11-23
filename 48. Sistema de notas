@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-//Armazene em uma matriz as trÍs notas de cinco alunos. Calcule e exiba a mÈdia de cada aluno e sua
-//situaÁ„o (Aprovado para mÈdia >= 7 e Reprovado caso contr·rio). Ao final, informe a maior nota
+//Armazene em uma matriz as tr√™s notas de cinco alunos. Calcule e exiba a m√©dia de cada aluno e sua
+//situa√ß√£o (Aprovado para m√©dia >= 7 e Reprovado caso contr√°rio). Ao final, informe a maior nota
 //registrada na turma
 
 int main() {
